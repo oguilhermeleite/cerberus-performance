@@ -14,14 +14,20 @@ tempo real, com uma leitura inteligente dos números em vez de uma planilha crua
 
 ## O que tem aqui
 
-- **Seletor de cliente e período** (30 / 90 dias / 12 meses) recalculando tudo ao vivo
-- **KPIs** com variação vs. período anterior — faturamento, ROAS, investimento, vendas
-- **Faturamento × Investimento** em série temporal
-- **Funil de conversão** com taxa entre etapas
-- **ROAS por canal** (Meta Ads, Google, orgânico, influencers)
-- **Cerberus Intelligence** — leitura automática dos dados em português, com opção de
-  aprofundar a análise usando a API da Claude
-- **Exportar relatório** em PDF (pronto para levar à reunião com o cliente)
+**Central da carteira** (tela inicial) — visão de todos os clientes em cards de status
+verde/amarelo/vermelho, ordenados por prioridade de atenção. Pensada para escala: quem
+gerencia dezenas de contas não consegue abrir relatório manual de cada uma.
+
+- **KPIs agregados** da carteira: faturamento total, investimento, ROAS médio, quantas no alvo
+- **Filtro** por status (todas / atenção / no alvo) e **pacing de meta** por loja
+- Clique em qualquer loja para abrir o **painel detalhado**:
+  - KPIs com variação vs. período anterior — faturamento, ROAS, investimento, vendas
+  - Faturamento × Investimento em série temporal (30 / 90 dias / 12 meses)
+  - Funil de conversão com taxa entre etapas
+  - ROAS por canal (Meta Ads, Google, orgânico, influencers)
+  - **Cerberus Intelligence** — leitura automática dos dados em português, com opção de
+    aprofundar usando a API da Claude
+  - Exportar relatório em PDF
 
 ## Stack
 
